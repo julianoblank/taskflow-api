@@ -1,0 +1,32 @@
+{
+    "meta": {
+      "name": "TaskFlow Laravel API MVP"
+    },
+    "project": {
+      "name": "taskflow-api",
+      "type": "laravel-api",
+      "projectRoot": "../taskflow-api"
+    },
+    "codex": {
+      "approvalMode": "never",
+      "skipGitRepoCheck": true,
+      "extraArgs": []
+    },
+      "pipeline": [
+        "planner",
+        "database",
+        "model",
+        "repository",
+        "service",
+        "request",
+        "controller",
+        "tests",
+        "docs",
+        "review"
+    ],
+    "vars": {
+      "entityName": "Task",
+      "entityTable": "tasks",
+      "apiBasePath": "/api/tasks"
+    }
+  }

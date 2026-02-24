@@ -1,0 +1,14 @@
+{
+    "name": "laravel-codex-orchestrator",
+    "version": "1.0.0",
+    "description": "Orquestrador de agentes JS para gerar projeto Laravel com Codex CLI",
+    "type": "module",
+    "main": "src/index.js",
+    "scripts": {
+      "start": "node src/index.js src/tasks/taskflow-laravel.json",
+      "run:taskflow": "node src/index.js src/tasks/taskflow-laravel.json"
+    },
+    "engines": {
+      "node": ">=18"
+    }
+  }
